@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/windows/servercore:ltsc2022 AS base
+FROM node:18 AS base
 
 FROM base AS deps
 RUN apk add --no-cache libc6-compat
