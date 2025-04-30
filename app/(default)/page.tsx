@@ -18,11 +18,11 @@ export default function Home() {
       <Hero />
       <FeaturesBlocks />
       <Features />
-      <Features02 />
-      <Features03 />
+      {/*<Features02 />
+      <Features03 /> 
       <Target />
       <PricingSection />
-      <Cta />
+      <Cta /> */}
     </>
   )
 }

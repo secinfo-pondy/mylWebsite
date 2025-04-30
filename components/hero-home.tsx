@@ -22,7 +22,7 @@ export default function HeroHome() {
 
               <p className="text-center text-xl text-slate-400 mb-8"><Link className=" btn text-white bg-blue-600 hover:bg-slate-700 group" href="/request-demo">
                     Explore the Platform                    
-                  </Link>&nbsp;&nbsp;<Link className="btn text-white bg-slate-700 hover:bg-slate-800 " href="#0">View Sample Insights</Link></p>
+                  </Link>&nbsp;&nbsp;<Link className="btn text-white bg-slate-700 hover:bg-slate-800 " href="/">View Sample Insights</Link></p>
               
             </div>
 

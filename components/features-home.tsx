@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Link from 'next/link'
 import Image from 'next/image'
 import { Transition } from '@headlessui/react'
 import FeaturesImage from '@/public/images/features-home-01.jpg'
@@ -27,15 +28,20 @@ export default function FeaturesHome() {
               <div className="flex items-center justify-center text-xl">
                 <ul>
                   <li className="text-2xl font-bold font-sans-display text-slate-800 mb-4"> As Cited in the press </li>
-                  <li className="text-xl font-sans-display text-slate-800 mb-4"> The Average CFO tenure in 10 years </li>
-                  <li className="text-xl font-sans-display text-slate-800 mb-4"> Insights built for journalists, analyst, legal & ESG teams </li>
+                  <li className="text-lg font-sans-display text-slate-800 mb-4">&#x2713; WSJ - “CFO Tenure in R3000” </li>
+                  <li className="text-lg font-sans-display text-slate-800 mb-4">&#x2713; FT - “Board Trends” </li>
+                  <li ><Link href="/media"> 
+                  <p className="btn text-white bg-slate-700 hover:bg-slate-800">Explore Media -&gt;</p></Link> </li>
                 </ul>
               </div>
               <div className="flex items-center justify-center text-xl">
               <ul>
-                  <li className="text-2xl font-bold font-sans-display text-slate-800 mb-4">Built for visibility, trust and Compliance.</li>
-                  <li className="text-xl font-sans-display text-slate-800 mb-4"> Structured data set spanning 10+ years. </li>
-                  <li className="text-xl font-sans-display text-slate-800 mb-4"> Insights built for journalists, analyst, legal & ESG teams </li>
+                  <li className="text-2xl font-bold font-sans-display text-slate-800 mb-4">Reports & Studies</li>
+                  <li className="text-lg font-sans-display text-slate-800 mb-4">&#x2713; CEO Pay Report 2025 (PDF) </li>
+                  <li className="text-lg font-sans-display text-slate-800 mb-4">&#x2713; Board Tenure Study 2024 (PDF) </li>
+                  <li ><Link href="/media"> 
+                  <p className="btn text-white bg-slate-700 hover:bg-slate-800">View Report -&gt;</p></Link> </li>
+                
                 </ul>
              </div>
 
