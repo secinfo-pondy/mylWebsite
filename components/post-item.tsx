@@ -12,7 +12,7 @@ export default function PostItem({ ...props }) {
       }
       <div className="grow flex flex-col">
         <header>
-          <h3 className="h4 font-playfair-display mb-3">
+          <h3 className="h4 font-sans-display mb-3">
             <Link className="text-slate-800 hover:underline hover:decoration-blue-100" href={`/blog/${props.slug}`}>{props.metadata.title}</Link>
           </h3>
         </header>

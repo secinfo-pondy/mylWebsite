@@ -28,7 +28,7 @@ export default function ResetPassword() {
                 </Link>
               </div>
 
-              <h1 className="h2 font-playfair-display text-slate-800 mb-12">Reset password</h1>
+              <h1 className="h2 font-sans-display text-slate-800 mb-12">Reset password</h1>
 
               {/* Form */}
               <form>

@@ -28,7 +28,7 @@ export default function SupportContent() {
                 {/* Content */}
                 <div className="grow">
                   <header>
-                    <h2 className="h4 font-playfair-display mb-2">
+                    <h2 className="h4 font-sans-display mb-2">
                       <a className="text-slate-800 hover:underline hover:decoration-blue-100" href="#0">Getting Started with Tidy</a>
                     </h2>
                   </header>
@@ -57,7 +57,7 @@ export default function SupportContent() {
                 {/* Content */}
                 <div className="grow">
                   <header>
-                    <h2 className="h4 font-playfair-display mb-2">
+                    <h2 className="h4 font-sans-display mb-2">
                       <a className="text-slate-800 hover:underline hover:decoration-blue-100" href="#0">Account Access and Billing</a>
                     </h2>
                   </header>
@@ -86,7 +86,7 @@ export default function SupportContent() {
                 {/* Content */}
                 <div className="grow">
                   <header>
-                    <h2 className="h4 font-playfair-display mb-2">
+                    <h2 className="h4 font-sans-display mb-2">
                       <a className="text-slate-800 hover:underline hover:decoration-blue-100" href="#0">Best Practices</a>
                     </h2>
                   </header>
@@ -115,7 +115,7 @@ export default function SupportContent() {
                 {/* Content */}
                 <div className="grow">
                   <header>
-                    <h2 className="h4 font-playfair-display mb-2">
+                    <h2 className="h4 font-sans-display mb-2">
                       <a className="text-slate-800 hover:underline hover:decoration-blue-100" href="#0">API</a>
                     </h2>
                   </header>
@@ -142,7 +142,7 @@ export default function SupportContent() {
                 {/* Content */}
                 <div className="grow">
                   <header>
-                    <h2 className="h4 font-playfair-display mb-2">
+                    <h2 className="h4 font-sans-display mb-2">
                       <a className="text-slate-800 hover:underline hover:decoration-blue-100" href="#0">Other Tools</a>
                     </h2>
                   </header>

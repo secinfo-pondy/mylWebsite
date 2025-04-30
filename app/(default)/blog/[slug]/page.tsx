@@ -62,7 +62,7 @@ export default async function SinglePost(
                   {/* Title and excerpt */}
                   <div className="text-center md:text-left">
                     <Link className="inline-flex font-semibold text-blue-600 hover:text-blue-500 transition duration-150 ease-in-out group mb-2" href="/blog" data-aos="fade-down"><span className="tracking-normal text-blue-600 group-hover:-translate-x-0.5 transition-transform duration-150 ease-in-out mr-1">&lt;-</span> Back to Blog</Link>
-                    <h1 className="h2 font-playfair-display text-slate-100 mb-6">{post.metadata.title}</h1>
+                    <h1 className="h2 font-sans-display text-slate-100 mb-6">{post.metadata.title}</h1>
                   </div>
                   {/* Article meta */}
                   <div className="md:flex md:items-center md:justify-between mt-3" data-aos="fade-up">
@@ -125,7 +125,7 @@ export default async function SinglePost(
           <div className="max-w-3xl mx-auto">
 
             <div className="mb-8">
-              <article className="prose text-lg text-slate-500 max-w-none prose-lg prose-p:leading-normal prose-headings:font-playfair-display prose-headings:text-slate-900 prose-a:text-blue-600 prose-a:no-underline hover:prose-a:underline prose-a:font-medium prose-strong:font-medium prose-strong:text-slate-900 prose-blockquote:pl-4 prose-blockquote:border-l-2 prose-blockquote:border-slate-900 prose-blockquote:not-italic prose-blockquote:font-normal prose-blockquote:text-inherit before:prose-p:content-[''] after:prose-p:content-[''] prose-hr:my-8">
+              <article className="prose text-lg text-slate-500 max-w-none prose-lg prose-p:leading-normal prose-headings:font-sans-display prose-headings:text-slate-900 prose-a:text-blue-600 prose-a:no-underline hover:prose-a:underline prose-a:font-medium prose-strong:font-medium prose-strong:text-slate-900 prose-blockquote:pl-4 prose-blockquote:border-l-2 prose-blockquote:border-slate-900 prose-blockquote:not-italic prose-blockquote:font-normal prose-blockquote:text-inherit before:prose-p:content-[''] after:prose-p:content-[''] prose-hr:my-8">
                 <CustomMDX source={post.content} />
               </article>
             </div>

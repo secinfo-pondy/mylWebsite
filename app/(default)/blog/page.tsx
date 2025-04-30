@@ -54,7 +54,7 @@ export default function Blog() {
               {/* Content */}
               <div className="md:w-1/2" data-aos="fade-up">
                 <header>
-                  <h2 className="h4 md:text-4xl lg:text-5xl font-playfair-display mb-3">
+                  <h2 className="h4 md:text-4xl lg:text-5xl font-sans-display mb-3">
                     <Link className="text-slate-800 hover:underline hover:decoration-blue-100" href={`/blog/${featuredPost.slug}`}>{featuredPost.metadata.title}</Link>
                   </h2>
                 </header>
@@ -88,7 +88,7 @@ export default function Blog() {
 
             {/* Latest */}
             <div>
-              <h2 className="h3 font-playfair-display text-center md:text-left mb-8">Latest</h2>
+              <h2 className="h3 font-sans-display text-center md:text-left mb-8">Latest</h2>
 
               {/* Articles container */}
               <div className="max-w-sm mx-auto md:max-w-none grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
@@ -100,7 +100,7 @@ export default function Blog() {
 
             {/* Popular */}
             <div>
-              <h2 className="h3 font-playfair-display text-center md:text-left mb-8">Popular</h2>
+              <h2 className="h3 font-sans-display text-center md:text-left mb-8">Popular</h2>
 
               {/* Articles container */}
               <div className="max-w-sm mx-auto md:max-w-none grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
@@ -114,7 +114,7 @@ export default function Blog() {
 
             {/* Product & News */}
             <div>
-              <h2 className="h3 font-playfair-display text-center md:text-left mb-8">Product &amp; News</h2>
+              <h2 className="h3 font-sans-display text-center md:text-left mb-8">Product &amp; News</h2>
 
               {/* Articles container */}
               <div className="max-w-sm mx-auto md:max-w-none grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
