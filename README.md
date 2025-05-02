@@ -36,3 +36,20 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+gcloud auth login
+gcloud config set project ameer-cloudtrain
+gcloud projects get-iam-policy ameer-cloudtrain
+gcloud projects add-iam-policy-binding ameer-cloudtrain \
+>>   --member=user:ameer.logitek@gmail.com \
+>>   --role=roles/artifactregistry.writer
+gcloud auth configure-docker gcr.io
+
+
+
+docker build -t mylwebsite-app .
+docker tag mylwebsite-app gcr.io/ameer-cloudtrain/mylwebsite-app
+docker push gcr.io/ameer-cloudtrain/mylwebsite-app
+
+After this Go to GCP artifact and then deploy to cloud run.
