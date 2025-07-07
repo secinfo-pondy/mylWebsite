@@ -4,7 +4,7 @@ export const metadata = {
 }
 
 import Hero from '@/components/hero-home'
-import FeaturesBlocks from '@/components/features-blocks'
+import FeaturesBlocks from '@/components/products'
 import Features from '@/components/features-home'
 import Features02 from '@/components/features-home-02'
 import Features03 from '@/components/features-home-03'

@@ -46,10 +46,40 @@ gcloud projects add-iam-policy-binding ameer-cloudtrain \
 >>   --role=roles/artifactregistry.writer
 gcloud auth configure-docker gcr.io
 
+/*
+gcloud config set project mylogiqui
+gcloud auth application-default set-quota-project mylogiq-website
+gcloud projects get-iam-policy mylogiq-website
+
+cmd /c "gcloud projects add-iam-policy-binding mylogiqui --member=user:mylgcloud45@gmail.com --role=roles/artifactregistry.writer"
+*/
 
 
 docker build -t mylwebsite-app .
 docker tag mylwebsite-app gcr.io/ameer-cloudtrain/mylwebsite-app
 docker push gcr.io/ameer-cloudtrain/mylwebsite-app
 
+--
+docker tag mylwebsite-app us-docker.pkg.dev/mylogiqui/gcp-io/mylwebsite-app
+docker push us-docker.pkg.dev/mylogiqui/gcp-io/mylwebsite-app
+
 After this Go to GCP artifact and then deploy to cloud run.
+
+npm run dev
+
+-- To run docker image
+docker run -d -p 3000:3000 mylwebsite-app
+-- to list the containers
+docker ps 
+
+-- to lists all containers that are up and running. -a means all (both stopped and running)
+ docker ps 
+
+
+
+
+
+ -- Artifact registry
+ https://console.cloud.google.com/artifacts?inv=1&invt=Abwl2A&project=ameer-cloudtrain
+
+ 

@@ -22,23 +22,23 @@ export default function Footer() {
 
           {/* 2nd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-          <Link href="/"><h6 className="text-sm text-slate-800 font-semibold mb-2 hover:text-blue-600 transition duration-150 ease-in-out">About</h6></Link>
+          <Link href="/"><h6 className="text-sm text-slate-800 font-semibold mb-2 hover:text-blue-600 transition duration-150 ease-in-out">Home</h6></Link>
           </div>
 
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-          <Link href="/"><h6 className="text-sm text-slate-800 font-semibold mb-2 hover:text-blue-600 transition duration-150 ease-in-out">Product</h6></Link>
+          <Link href="/products"><h6 className="text-sm text-slate-800 font-semibold mb-2 hover:text-blue-600 transition duration-150 ease-in-out">Solutions</h6></Link>
           </div>
 
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-          <Link href="/"><h6 className="text-sm text-slate-800 font-semibold mb-2 hover:text-blue-600 transition duration-150 ease-in-out">Media</h6></Link>
+          <Link href="/insights"><h6 className="text-sm text-slate-800 font-semibold mb-2 hover:text-blue-600 transition duration-150 ease-in-out">Insights</h6></Link>
           </div>
 
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-          <Link href="/"><h6 className="text-sm text-slate-800 font-semibold mb-2 hover:text-blue-600 transition duration-150 ease-in-out">Reports</h6></Link>
+          <Link href="/about"><h6 className="text-sm text-slate-800 font-semibold mb-2 hover:text-blue-600 transition duration-150 ease-in-out">About Us</h6></Link>
           </div>
 
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-          <Link href="/"><h6 className="text-sm text-slate-800 font-semibold mb-2 hover:text-blue-600 transition duration-150 ease-in-out">Contact us</h6></Link>
+          <Link href="/contact-us"><h6 className="text-sm text-slate-800 font-semibold mb-2 hover:text-blue-600 transition duration-150 ease-in-out">Contact us</h6></Link>
           </div>
 
           

@@ -1,4 +1,5 @@
 'use client'
+import Link from 'next/link'
 
 import { useRef, useState } from "react";
 import { Transition } from '@headlessui/react'
@@ -6,9 +7,10 @@ import { Transition } from '@headlessui/react'
 type DropdownProps = {
   children: React.ReactNode;
   title: string;
+  prnt_link: string;
 };
 
-export default function Dropdown({ children, title }: DropdownProps) {
+export default function Dropdown({ children, title, prnt_link }: DropdownProps) {
   const dropdownRef = useRef<HTMLUListElement | null>(null);
   const [dropdownOpen, setDropdownOpen] = useState<boolean>(false);
 
@@ -33,7 +35,9 @@ export default function Dropdown({ children, title }: DropdownProps) {
       onMouseLeave={() => setDropdownOpen(false)}
     >
       <span className="flex cursor-pointer items-center text-slate-800 dark:text-slate-400 transition">
+        <Link href={prnt_link}>
         {title}
+        </Link>
       </span>      
       <button
         aria-expanded={dropdownOpen}
