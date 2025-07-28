@@ -6,16 +6,16 @@ export default function auditfees() {
       <section className="sec-disclosures-section py-16">
         <div className="container mx-auto px-10">
           <div className="flex flex-col md:flex-row">
-            <div className="w-full md:w-1/2 mb-8 md:mb-0">
+            <div className="w-full md:w-1/2  mt-4  md:mb-0">
               <div className="sec-disclosures-left">
-                <h2 className="text-3xl font-bold font-roboto text-slate-600 mb-2">Audit Fees & SOX</h2>
+                <h2 className="text-3xl font-bold font-roboto text-slate-600 pt-5 mt-4  mb-2">Audit Fees & SOX</h2>
                 <h6 className="text-lg font-bold mb-4">
                   Precision Analytics for Identifying Audit Fee Trends & SOX Compliance</h6>
                 <p className="text-lg mb-6">
                   Access 10+ years of continuously updated data covering audit fees, tax fees, SOX
                   compliance, and material weaknesses.
                 </p>
-                <a href="https://api.mylogiq.com/audit-fees" target="_blank" className="inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition-colors">
+                <a href="./auditfees/datapoint" className="inline-flex items-center hover:bg-[#81cd47] bg-[#17bdc2] text-white px-6 py-3 rounded-md    transition-colors">
                   <span className="font-bold">View Datapoints</span>
                   <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"></path>
@@ -143,43 +143,26 @@ export default function auditfees() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-white p-8 rounded-lg shadow-md">
-              <h5 className="text-xl font-bold text-blue-600 mb-2">Request a Demo</h5>
-              <p className="mb-6">Schedule a demo to see how our Al-powered research<br />solutions can help you.</p>
-              <a
-                href="/request-demo"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition-colors"
-              >
-                <span className="font-bold">Request a Demo</span>
-                <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                </svg>
-              </a>
-            </div>
-            {/*} <div className="bg-white p-8 rounded-lg shadow-md">
-              <h5 className="text-xl font-bold text-blue-600 mb-2">More Information</h5>
-              <p className="mb-6">Download our Proxy brochure.</p>
-              <a
-                href="https://www.mylogiq.com/wp-content/uploads/2021/11/Corporate-Governance-Brochure.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block"
-              >
-                <img
-                  className="w-40 shadow-md hover:shadow-lg transition-shadow"
-                  src="https://www.mylogiq.com/wp-content/uploads/2021/11/corporate_governance_thumbs.jpg.webp"
-                  alt="Proxy Brochure"
-                />
-              </a>
-            </div> */}
-          </div>
-        </div>
-      </section>
+      <section className="py-5 mb-5 items-center">
+                <div className="container mx-auto px-4">
+                    <div className="flex justify-center">
+                        <div className="bg-white p-8 rounded-lg shadow-md max-w-md">
+                            <h5 className="text-xl font-bold text-blue-600 mb-2">Request a Demo</h5>
+                            <p className="mb-6">Schedule a demo to see how our Al-powered research<br />solutions can help you.</p>
+
+                            <a href="/request-demo"
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition-colors"
+                            >
+                                <span className="font-bold">Request a Demo</span>
+                                <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
     </div>
 
   )

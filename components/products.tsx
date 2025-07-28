@@ -9,7 +9,7 @@ export default function Products() {
           <div className="text-center md:text-left md:min-w-[30rem]" data-aos="fade-right">
             <h1 className="h1 text-center font-roboto text-slate-600 mb-4">Structured <br></br>Intelligence for<br></br> Every Stakeholder</h1>
             <p className="text-center text-xl text-slate-400 mb-8">Unlock 360° insights on public companies across SEC compliance,<br></br>
-corporate governance, compensation, proxy proposals, and more
+corporate governance, compensation, proxy proposals, and more.
             </p>
 
             <p className="text-center text-xl text-slate-400 mb-8">Available via API, platform dashboards, or company tear sheets.</p>
@@ -85,7 +85,7 @@ corporate governance, compensation, proxy proposals, and more
             <div className="relative" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
               <Link href="/products/corp-document-policies">
                 <img className="w-85 h-50" src="/images/site/Company_Policies.png" />
-                <h3 className="h4 font-roboto mb-2">Corporate Documents & Policies</h3>
+                <h3 className="h4 font-roboto mb-2">Corporate Documents</h3>
                 <p className="text-lg text-[16px] text-slate-500">Bylaws | Charters | AI Governance <br></br> CSR & Sustainability Reports</p>
                 
               </Link>

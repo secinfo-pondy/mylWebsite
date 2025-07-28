@@ -35,7 +35,7 @@ export default function Dropdown({ children, title, prnt_link }: DropdownProps) 
       onMouseLeave={() => setDropdownOpen(false)}
     >
       <span className="flex cursor-pointer items-center text-slate-800 dark:text-slate-400 transition">
-        <Link href={prnt_link}>
+        <Link href={prnt_link} className="font-bold text-[#17bdc2] hover:text-[#81cd47] dark:text-[#17bdc2] dark:hover:text-[#81cd47] px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">
         {title}
         </Link>
       </span>      
@@ -53,7 +53,7 @@ export default function Dropdown({ children, title, prnt_link }: DropdownProps) 
           ref={dropdownRef}
           show={dropdownOpen}
           as="ul"
-          className="origin-top-right absolute top-full right-0 w-40 bg-white py-2 ml-4 rounded-sm shadow-lg transform transition ease-out data-enter:data-closed:-translate-y-2 data-closed:opacity-0"
+          className="origin-top-right absolute top-full right-0 w-40 bg-white dark:text-[#17bdc2] dark:hover:text-[#81cd47] py-2 ml-4 rounded-sm shadow-lg transform transition ease-out data-enter:data-closed:-translate-y-2 data-closed:opacity-0"
           onBlur={handleFocusOut}
         >
         {children}

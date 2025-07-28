@@ -1,8 +1,8 @@
 export default function AIReadySection() {  
   return (
-    <section className="ai-ready; pl-[70px]">
+    <section className="ai-ready font-roboto pl-[70px]">
         <br></br> <br></br> <br></br> <br></br>
-      <h2 className="text-3xl font-bold font-sans-display text-slate-600 mb-2">AI & LLM Ready Platform</h2>
+      <h2 className="text-3xl font-bold font-roboto text-slate-600 mb-2">AI & LLM Ready Platform</h2>
       <div className="pl-[70px]">
       <p>Enterprise-grade governance data optimized for artificial intelligence applications</p>
       

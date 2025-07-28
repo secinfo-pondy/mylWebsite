@@ -1,14 +1,13 @@
 import Link from 'next/link'
-import VideoThumb from '@/public/images/hero-image-01.jpg'
-import ModalVideo01 from '@/components/modal-video-01'
 
 export default function HeroHome() {
   return (
+    <>
     <section className="relative font-roboto">
 
-      {/* Dark background   bg-slate-900 */}
+      {/* Dark background */}
       <div className="absolute inset-0 bg-[#404559] pointer-events-none -z-10 [clip-path:polygon(0_0,_100%_0,_100%_65%,_0_80%)]" aria-hidden="true"></div>
-{/*(0_0,_5760px_0,_5760px_calc(100%_-_352px),_0_100%)  bg-[#f4f3df]   bg-[#404559]*/}
+
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-32 pb-20 md:pt-40 md:pb-44">
 
@@ -28,7 +27,7 @@ export default function HeroHome() {
                   <div><Link className="btn text-white bg-[#81cd47] hover:bg-[#17bdc2] "
                    href="/">View Insights</Link></div>
                   <div><Link className="btn text-white bg-[#81cd47] hover:bg-[#17bdc2]" 
-                  href="/products/adds" >Explore LLM-RAG</Link></div>
+                  href="/products/explore-llm" >Explore LLM-RAG</Link></div>
                 </div>
               
             </div>
@@ -38,7 +37,13 @@ export default function HeroHome() {
           </div>
 
         </div>
+        
       </div>
+      
     </section>
+
+    
+    
+    </>
   )
 }

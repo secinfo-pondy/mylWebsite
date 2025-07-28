@@ -5,19 +5,24 @@ export const metadata = {
 
 import Hero from '@/components/hero-home'
 import FeaturesBlocks from '@/components/products'
-import Features from '@/components/features-home'
-import Features02 from '@/components/features-home-02'
-import Features03 from '@/components/features-home-03'
-import Target from '@/components/target'
-import PricingSection from '@/components/pricing'
-import Cta from '@/components/cta'
+import Footer from '@/components/ui/footer'
 
 export default function Home() {
   return (
     <>
       <Hero />
       <FeaturesBlocks />
-      <Features />
+      {/*<Features />*/}
+       {/* Bottom section with inverse shape */}
+      {/* <section className="relative h-100 md:h-52">
+        Dark background for bottom 
+        <div className="absolute inset-0 bg-[#404559] pointer-events-none -z-10 [clip-path:polygon(0_60%,_100%_10%,_100%_100%,_0_100%)]" aria-hidden="true"></div>
+      <div className="pt-32 md:pt-20">
+          <Footer />
+        </div>
+        
+
+      </section>*/}
       {/*<Features02 />
       <Features03 /> 
       <Target />

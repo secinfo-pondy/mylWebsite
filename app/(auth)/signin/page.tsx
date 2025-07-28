@@ -6,8 +6,6 @@ export const metadata = {
 import Link from 'next/link'
 import Image from 'next/image'
 import Logo from '@/components/ui/logo'
-import PageBG from '@/public/images/sign-in-bg.jpg'
-import CustomerAvatar from '@/public/images/customer-avatar-05.jpg'
 
 export default function SignIn() {
   return (
@@ -88,7 +86,8 @@ export default function SignIn() {
 
         {/* Bg image */}
         <div className="absolute inset-0" data-aos="fade">
-          <Image className="opacity-10 w-full h-full object-cover" src={PageBG} width={760} height={900} priority alt="Background" />
+         {/* <Image className="opacity-10 w-full h-full object-cover" 
+          src={PageBG} width={760} height={900} priority alt="Background" />*/}
         </div>
 
         {/* Quote */}
@@ -104,7 +103,9 @@ export default function SignIn() {
               </div>
               <div className="flex items-center mt-4">
                 <a href="#0">
-                  <Image className="rounded-full shrink-0 mr-3" src={CustomerAvatar} width={32} height={32} alt="Customer Avatar 05" />
+                 {/* <Image className="rounded-full shrink-0 mr-3" 
+                  src={CustomerAvatar} width={32} height={32} alt="Customer Avatar 05" />
+                  */}
                 </a>
                 <div className="font-medium">
                   <span className="text-slate-200">Michael Crob</span>

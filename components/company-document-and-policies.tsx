@@ -6,14 +6,14 @@ export default function charter_policies() {
       <section className="sec-disclosures-section py-16">
         <div className="container mx-auto px-10">
           <div className="flex flex-col md:flex-row">
-            <div className="w-full md:w-1/2 mb-8 md:mb-0">
+            <div className="w-full md:w-1/2  mt-4  md:mb-0">
               <div className="sec-disclosures-left">
-                <h2 className="text-3xl font-bold font-roboto text-slate-600 mb-2">Corporate Documents & Policies</h2>
+                <h2 className="text-3xl font-bold font-roboto text-slate-600 pt-5 mt-4  mb-2">Corporate Documents & Policies</h2>
                 <p className="text-lg mb-6">
                   Navigate governing documents, sustainability reports, AI/cybersecurity governance,
                   conduct guidelines, and supply chain sourcing with our CompanyIQ® AI engine.
                 </p>
-                <a href="https://www.mylogiq.com/solutions/corporate-governance/corporate-governance-data-dictionary" className="inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition-colors">
+                <a href="./corp-document-policies/datapoint" className="inline-flex items-center  text-white px-6 py-3 rounded-md hover:bg-[#81cd47] bg-[#17bdc2] transition-colors">
                   <span className="font-bold">View Datapoints</span>
                   <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"></path>
@@ -125,15 +125,14 @@ export default function charter_policies() {
 
 
       {/* CTA Section */}
-      <section className="py-16">
+      <section className="py-5 mb-5 items-center">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-white p-8 rounded-lg shadow-md">
+          <div className="flex justify-center">
+            <div className="bg-white p-8 rounded-lg shadow-md max-w-md">
               <h5 className="text-xl font-bold text-blue-600 mb-2">Request a Demo</h5>
               <p className="mb-6">Schedule a demo to see how our Al-powered research<br />solutions can help you.</p>
-              <a
-                href="https://companyiq.mylogiq.com/"
-                target="_blank"
+
+              <a href="/request-demo"
                 rel="noopener noreferrer"
                 className="inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition-colors"
               >
@@ -143,7 +142,6 @@ export default function charter_policies() {
                 </svg>
               </a>
             </div>
-
           </div>
         </div>
       </section>
